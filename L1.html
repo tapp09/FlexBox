@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 1</title>
+
+    <style>
+        body {
+    margin: 0;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estrutura {
+    width: 70%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.menu {
+    width: 900px;
+    height: 110px;
+    background-color: yellow;
+    margin-bottom: 0;
+}
+.content {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+
+.C1 {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.C2 {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-column {
+    width: 250px;
+    height: 400px;
+    background-color: yellow;
+}
+.cont {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ci1,
+.ci2 {
+    background-color: yellow;
+    width: 200px;
+    height: 250px;
+}
+.side {
+    width: 500px;
+    height: 250px;
+    background-color: yellow;
+}
+    </style>
+</head>
+<body>
+    <div class="estrutura">
+        <div class="menu"></div>
+        <div class="content">
+            <div class="C1">
+                <div class="cont">
+                    <div class="ci1"></div>
+                    <div class="ci2"></div>
+                </div>
+                <div class="side">
+                    <div class="bar1"></div>
+                </div>
+            </div>
+            <div class="C2">
+                <div class="section-column"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

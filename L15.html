@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 15</title>
+    <style>
+        * {
+                margin: 0;
+            }
+            .estrutura {
+                width: 100%;
+                height: 100vh;
+                background-color: blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .columns {
+                width: 1000px;
+                height: 80vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+            }
+            .c1 {
+                width: 100%;
+                height: 20vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
+                margin-bottom: 30px;
+            }
+            .c1a {
+                height: 100%;
+                flex: 1;
+                background-color: yellow;
+                margin-right: 100px;
+            }
+            .c1b {
+                height: 100%;
+                flex: 4;
+                background-color:yellow;
+            }
+
+
+            .c2 {
+                width: 100%;
+                height: 60vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
+            }
+            .c2a {
+                height: 100%;
+                flex: 4;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                flex-direction: column;
+            }
+            .c2b {
+                height: 100%;
+                flex: 2;
+                background-color: yellow;
+                margin-left: 100px;
+            }
+            .a1 {
+                width: 100%;
+                height: 100%;
+                background-color: yellow;
+                margin-bottom: 20px;
+            }
+            .a2 {
+                width: 100%;
+                height: 100%;
+                background-color: yellow;
+                margin-top: 20px;
+            }
+    </style>
+</head>
+<body>
+    <div class="estrutura">
+        <div class="columns">
+            <div class="c1">
+                <div class="c1a"></div>
+                <div class="c1b"></div>
+            </div>
+            <div class="c2">
+                <div class="c2a">
+                    <div class="a1"></div>
+                    <div class="a2"></div>
+                </div>
+                <div class="c2b"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
