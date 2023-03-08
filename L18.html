@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 18</title>
+    <style>
+        * {
+                margin: 0;
+            }
+            .estrutura {
+                width: 100%;
+                height: 100vh;
+                background-color: blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .columns {
+                width: 1000px;
+                height: 80vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+            }
+            .c1 {
+                width: 100%;
+                height: 70%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
+            }
+            .c2 {
+                margin-top: 40px;
+                width: 100%;
+                height: 30%;
+            }
+            .r1 {
+                width: 30%;
+                height: 100%;
+                margin-right: 100px;
+            }
+            .r2 {
+                width: 70%;
+                height: 100%;
+            }
+            .l1 {
+                width: 100%;
+                height: 100%;
+                background-color: yellow;
+            }
+            .r2 {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .r3 {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .r4 {
+                width: 100%;
+                height: 100%;
+            }
+            .l2 {
+                width: 50%;
+                height: 100%;
+                background-color: yellow;
+                margin-right: 50px;
+            }
+            .l3 {
+                width: 50%;
+                height: 100%;
+                background-color: yellow;
+                margin-left: 50px;
+            }
+            .r4 {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+            .l4 {
+                width: 100%;
+                height: 180px;
+                background-color: yellow;
+            }
+            .g1 {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+            }
+            .g12 {
+                width: 67%;
+                height: 100%;
+                background-color: yellow;
+                margin-right: 50px;
+            }
+            .g13 {
+                width: 33%;
+                height: 100%;
+                background-color: yellow;
+                margin-left: 50px;
+            }
+    </style>
+</head>
+<body>
+    <div class="estrutura">
+        <div class="columns">
+            <div class="c1">
+                <div class="r1">
+                    <div class="l1"></div>
+                </div>
+                <div class="r2">
+                    <div class="r3">
+                        <div class="l2"></div>
+                        <div class="l3"></div>
+                    </div>
+                    <div class="r4">
+                        <div class="l4"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="c2">
+                <div class="g1">
+                    <div class="g12"></div>
+                    <div class="g13"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
